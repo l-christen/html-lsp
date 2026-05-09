@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", /* specify the version of JavaScript to compile to */
+    "module": "NodeNext", /* specify the module code generation method */
+    "moduleResolution": "NodeNext", /* specify how modules get resolved */
+    "outDir": "./out", /* specify the output directory for compiled JavaScript files */
+    "rootDir": "./src", /* specify the root directory of input TypeScript files */
+    "strict": true, /* enable all strict type-checking options */
+    "esModuleInterop": true, /* enable compatibility with CommonJS modules */
+    "skipLibCheck": true, /* skip type checking of declaration files */
+    "forceConsistentCasingInFileNames": true, /* ensure that file names are case-sensitive */
+    "sourceMap": true /* generate source map files for debugging */
+  },
+  "include": ["src/**/*"], /* specify the files to include in the compilation */
+  "exclude": ["node_modules"] /* specify the files to exclude from the compilation */
+}
