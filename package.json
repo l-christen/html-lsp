@@ -1,0 +1,26 @@
+{
+  "name": "html-lsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node out/server.js",
+    "dev": "tsc && node out/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-christen/html-lsp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l-christen/html-lsp/issues"
+  },
+  "homepage": "https://github.com/l-christen/html-lsp#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
